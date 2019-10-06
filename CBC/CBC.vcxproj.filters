@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="框架">
+      <UniqueIdentifier>{55297b88-6851-409b-b9d8-1bd79adf50f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\DX">
+      <UniqueIdentifier>{f18a4a68-5960-4af6-a42e-ae02609b9a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="客户端核心">
+      <UniqueIdentifier>{9e0706b7-a54d-4ed1-8282-7202469ad7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="客户端核心\游戏">
+      <UniqueIdentifier>{4e7ae230-0341-4b5b-959b-c33a2357ed26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="客户端核心\网络">
+      <UniqueIdentifier>{05104297-f4c3-4aeb-9d85-e8bf3fa50784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="客户端核心\资源管理">
+      <UniqueIdentifier>{74889e3d-c2c7-4006-82e1-8aa0e6811e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="客户端核心\UI界面">
+      <UniqueIdentifier>{a7bbf945-98a6-4fc0-aaa4-fb72699f6e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="客户端核心\音频">
+      <UniqueIdentifier>{40c2662d-3da8-4063-bc7b-e14c861cf259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="客户端核心\动画">
+      <UniqueIdentifier>{2c30c0ac-a9b4-4ff8-9f46-7285f1757db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="其他">
+      <UniqueIdentifier>{77fc6950-1cc8-49c5-a4d3-8b67babe1a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工具箱">
+      <UniqueIdentifier>{5fc46350-544d-40c9-8686-e3e2c85b0ea4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CBC.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="CBCGameRun.cpp">
+      <Filter>客户端核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientRoom.cpp">
+      <Filter>客户端核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientRoomManager.cpp">
+      <Filter>客户端核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientUser.cpp">
+      <Filter>客户端核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientUserManager.cpp">
+      <Filter>客户端核心</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Room.cpp">
+      <Filter>客户端核心</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\User.cpp">
+      <Filter>客户端核心</Filter>
+    </ClCompile>
+    <ClCompile Include="CrazyBubbleGame.cpp">
+      <Filter>客户端核心\游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="CrazyBubbleGameCore.cpp">
+      <Filter>客户端核心\游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="CrazyBubbleGameToolManager.cpp">
+      <Filter>客户端核心\游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="CBCNetWorkProcessor.cpp">
+      <Filter>客户端核心\网络</Filter>
+    </ClCompile>
+    <ClCompile Include="ResManager.cpp">
+      <Filter>客户端核心\资源管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CBCGUIProcessor.cpp">
+      <Filter>客户端核心\UI界面</Filter>
+    </ClCompile>
+    <ClCompile Include="MIDI.cpp">
+      <Filter>客户端核心\音频</Filter>
+    </ClCompile>
+    <ClCompile Include="CBCAnimation.cpp">
+      <Filter>客户端核心\动画</Filter>
+    </ClCompile>
+    <ClCompile Include="CBCAnimationProcessor.cpp">
+      <Filter>客户端核心\动画</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>其他</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\BLUEXMLOperation.cpp">
+      <Filter>工具箱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ToolKit.cpp">
+      <Filter>工具箱</Filter>
+    </ClCompile>
+    <ClCompile Include="CBCAudioProcessor.cpp">
+      <Filter>客户端核心\音频</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\BLUELibrary\include\BLUEDirectX\engine2d.cpp">
+      <Filter>框架\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\BLUELibrary\include\BLUEDirectX\Game.cpp">
+      <Filter>框架\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\BLUELibrary\include\BLUEDirectX\Game2D.cpp">
+      <Filter>框架\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\BLUELibrary\include\BLUEDirectX\gui.cpp">
+      <Filter>框架\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\BLUELibrary\include\BLUEDirectX\gui2d.cpp">
+      <Filter>框架\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\BLUELibrary\include\BLUEDirectX\gui2dList.cpp">
+      <Filter>框架\DX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBC.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="CBCGameRun.h">
+      <Filter>客户端核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRoom.h">
+      <Filter>客户端核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRoomManager.h">
+      <Filter>客户端核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientUser.h">
+      <Filter>客户端核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientUserManager.h">
+      <Filter>客户端核心</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Room.h">
+      <Filter>客户端核心</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\User.h">
+      <Filter>客户端核心</Filter>
+    </ClInclude>
+    <ClInclude Include="CrazyBubbleGame.h">
+      <Filter>客户端核心\游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="CrazyBubbleGameCore.h">
+      <Filter>客户端核心\游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="CrazyBubbleGameToolManager.h">
+      <Filter>客户端核心\游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="CBCNetWorkProcessor.h">
+      <Filter>客户端核心\网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CommunicateProtocol.h">
+      <Filter>客户端核心\网络</Filter>
+    </ClInclude>
+    <ClInclude Include="ResManager.h">
+      <Filter>客户端核心\资源管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CBCGUIProcessor.h">
+      <Filter>客户端核心\UI界面</Filter>
+    </ClInclude>
+    <ClInclude Include="CBCAudioProcessor.h">
+      <Filter>客户端核心\音频</Filter>
+    </ClInclude>
+    <ClInclude Include="MIDI.h">
+      <Filter>客户端核心\音频</Filter>
+    </ClInclude>
+    <ClInclude Include="CBCAnimation.h">
+      <Filter>客户端核心\动画</Filter>
+    </ClInclude>
+    <ClInclude Include="CBCAnimationProcessor.h">
+      <Filter>客户端核心\动画</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>其他</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\BLUEXMLOperation.h">
+      <Filter>工具箱</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ToolKit.h">
+      <Filter>工具箱</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\Com.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\Def.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\engine2d.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\game.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\game2d.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\gui.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\gui2d.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\gui2dList.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\guiEvent.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\BLUELibrary\include\BLUEDirectX\guimsgtype.h">
+      <Filter>框架\DX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CBC.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CBC.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

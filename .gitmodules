@@ -1,0 +1,3 @@
+[submodule "external/BLUELibrary"]
+	path = external/BLUELibrary
+	url = https://github.com/kbkman/BLUELibrary.git

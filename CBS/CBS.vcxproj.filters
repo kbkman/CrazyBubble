@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="工具">
+      <UniqueIdentifier>{84252477-865f-4ac9-b4ac-a9613362c6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="其他">
+      <UniqueIdentifier>{b9209dcd-93e3-4faa-b324-3d9d5dabd2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务器核心">
+      <UniqueIdentifier>{3fccbc8e-0276-4510-a41e-68dca2d08511}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\BLUEXMLOperation.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleProcessor.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ToolKit.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CBS.cpp">
+      <Filter>其他</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>其他</Filter>
+    </ClCompile>
+    <ClCompile Include="CrazyBubbleService.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+    <ClCompile Include="CrazyBubbleServiceCore.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Room.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerGameDesk.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerGameDeskManager.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerUser.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerUserManager.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\User.cpp">
+      <Filter>服务器核心</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\BLUEXMLOperation.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleProcessor.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ToolKit.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>其他</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CommunicateProtocol.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="CrazyBubbleService.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="CrazyBubbleServiceCore.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Room.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerGameDesk.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerGameDeskManager.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerUser.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerUserManager.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\User.h">
+      <Filter>服务器核心</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CBS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+</Project>

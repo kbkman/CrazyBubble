@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<version>0</version><!--皮肤的版本号，值越大则越新-->
+
+	<ncNeedClrTransparent>1</ncNeedClrTransparent><!--是否使用透明处理-->
+	<ncClrTransparent>16777215</ncClrTransparent><!--透明色的值（如果使用透明处理）-->
+
+	<ncCloseBtnTopToFrame>6</ncCloseBtnTopToFrame><!--关闭按钮离窗口最上面距离-->
+	<ncCloseBtnRightToFrame>10</ncCloseBtnRightToFrame><!--关闭按钮离窗口最右面距离-->
+	<ncMaxBtnTopToFrame>6</ncMaxBtnTopToFrame><!--最大化按钮离窗口最上面距离-->
+	<ncMaxBtnRightToFrame>30</ncMaxBtnRightToFrame><!--最大化按钮离窗口最右面距离-->
+	<ncMinBtnTopToFrame>6</ncMinBtnTopToFrame><!--最小化按钮离窗口最上面距离-->
+	<ncMinBtnRightToFrame>30</ncMinBtnRightToFrame><!--最小化按钮离窗口最右面距离-->
+
+	<ncTitleTextColor>16777215</ncTitleTextColor><!--标题文字颜色-->
+	<ncTitleTextTopToFrame>7</ncTitleTextTopToFrame><!--标题文字离窗口最上面距离-->
+	<ncTitleTextLeftToFrame>30</ncTitleTextLeftToFrame><!--标题文字离窗口最左面距离-->
+	<ncTitleTextRightToFrame>70</ncTitleTextRightToFrame><!--标题文字离窗口最右面距离-->
+	<ncTitleTextHeight>15</ncTitleTextHeight><!--标题文字高度-->
+	<ncTitleTextWeight>100</ncTitleTextWeight><!--标题文字粗细-->
+
+	<ncDrawTitleIcon>1</ncDrawTitleIcon><!--是否画图标-->
+	<ncTitleIconTopToFrame>5</ncTitleIconTopToFrame><!--图标离窗口最上面距离-->
+	<ncTitleIconLeftToFrame>8</ncTitleIconLeftToFrame><!--图标离窗口最左面距离-->
+	<ncTitleIconWidth>16</ncTitleIconWidth><!--图标宽度-->
+	<ncTitleIconHeight>16</ncTitleIconHeight><!--图标高度-->
+</config>
